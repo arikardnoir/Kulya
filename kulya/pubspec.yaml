@@ -46,6 +46,8 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^2.0.0
+  dots_indicator: ^3.0.0
+
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -64,6 +66,9 @@ flutter:
      - assets/images/chef.jpg
      - assets/images/delivery.jpg
      - assets/images/delivered.jpg
+     - assets/images/gmail.png
+     - assets/images/facebook.png
+     - assets/images/apple.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
