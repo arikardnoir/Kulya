@@ -42,7 +42,7 @@ class _LogoScreenState extends State<LogoScreen> with TickerProviderStateMixin {
               style: TextStyle(
                 color: Colors.red,
                 fontSize: 60.0,
-                fontWeight: FontWeight.bold,
+                //fontWeight: FontWeight.bold,
               ),
             ),
           ],

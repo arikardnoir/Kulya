@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:kulya/screens/password/forget_password_screen.dart';
 
 class SignInScreen extends StatefulWidget {
   const SignInScreen({super.key});
@@ -102,12 +103,23 @@ class _SignInScreenState extends State<SignInScreen> {
                             style: TextStyle(fontSize: 12.0),
                           ),
                           const SizedBox(
-                            width: 110.0,
+                            width: 90.0,
                           ),
-                          const Text(
-                            'Esqueceu a senha?',
-                            style: TextStyle(fontSize: 12.0, color: Colors.red),
-                            textAlign: TextAlign.end,
+                          TextButton(
+                            onPressed: () {
+                              Navigator.of(context).pushReplacement(
+                                MaterialPageRoute(
+                                  builder: (context) =>
+                                      const ForgetPasswordScreen(),
+                                ),
+                              );
+                            },
+                            child: const Text(
+                              'Esqueceu a senha?',
+                              style:
+                                  TextStyle(fontSize: 12.0, color: Colors.red),
+                              textAlign: TextAlign.end,
+                            ),
                           )
                         ],
                       ),
