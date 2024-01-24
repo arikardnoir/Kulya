@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:kulya/screens/password/check_email_screen.dart';
 
 class ForgetPasswordScreen extends StatefulWidget {
   const ForgetPasswordScreen({super.key});
@@ -59,11 +60,11 @@ class _ForgetPasswordScreen extends State<ForgetPasswordScreen> {
                   const SizedBox(height: 30),
                   ElevatedButton(
                     onPressed: () {
-                      /* Navigator.of(context).pushReplacement(
+                      Navigator.of(context).pushReplacement(
                         MaterialPageRoute(
-                          builder: (context) => const Recta(),
+                          builder: (context) => const CheckEmailScreen(),
                         ),
-                      ); */
+                      );
                     },
                     style: ElevatedButton.styleFrom(
                       foregroundColor: Colors.white,

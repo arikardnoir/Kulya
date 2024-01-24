@@ -69,6 +69,8 @@ flutter:
      - assets/images/gmail.png
      - assets/images/facebook.png
      - assets/images/apple.png
+     - assets/images/emailcheck.jpg
+     - assets/images/numbercheck.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
