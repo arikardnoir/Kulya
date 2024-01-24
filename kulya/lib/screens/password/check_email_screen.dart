@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:kulya/screens/password/reset_password_screen.dart';
 
 class CheckEmailScreen extends StatefulWidget {
   const CheckEmailScreen({Key? key}) : super(key: key);
@@ -44,9 +45,7 @@ class _CheckEmailScreenState extends State<CheckEmailScreen> {
                   const SizedBox(height: 20.0),
                   const SizedBox(height: 30),
                   ElevatedButton(
-                    onPressed: () {
-                      // Adicione a lógica para o botão "Abrir o e-mail"
-                    },
+                    onPressed: () {},
                     style: ElevatedButton.styleFrom(
                       foregroundColor: Colors.white,
                       backgroundColor: Colors.red,
@@ -61,7 +60,11 @@ class _CheckEmailScreenState extends State<CheckEmailScreen> {
                   ),
                   TextButton(
                     onPressed: () {
-                      // Adicione a lógica para o botão "Pular! Confirmarei mais tarde"
+                      Navigator.of(context).pushReplacement(
+                        MaterialPageRoute(
+                          builder: (context) => const ResetPasswordScreen(),
+                        ),
+                      );
                     },
                     child: const Text(
                       'Pular! Confirmarei mais tarde',
@@ -78,9 +81,7 @@ class _CheckEmailScreenState extends State<CheckEmailScreen> {
                         style: TextStyle(fontSize: 10.0),
                       ),
                       TextButton(
-                        onPressed: () {
-                          // Adicione a lógica para o botão "tente com outro e-mail"
-                        },
+                        onPressed: () {},
                         child: const Text(
                           'tente outro e-mail',
                           style: TextStyle(fontSize: 10.0, color: Colors.red),
