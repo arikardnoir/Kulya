@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:kulya/screens/password/check_email_screen.dart';
+import 'package:kulya/screens/password/check_sms_screen.dart';
 
 class ResetPasswordScreen extends StatefulWidget {
   const ResetPasswordScreen({super.key});
@@ -62,7 +62,7 @@ class _ResetPasswordScreen extends State<ResetPasswordScreen> {
                     onPressed: () {
                       Navigator.of(context).pushReplacement(
                         MaterialPageRoute(
-                          builder: (context) => const CheckEmailScreen(),
+                          builder: (context) => const CheckSmsScreen(),
                         ),
                       );
                     },
