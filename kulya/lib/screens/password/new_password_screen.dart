@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:kulya/screens/password/check_sms_screen.dart';
+import 'package:kulya/screens/home/welcome_screen.dart';
 
 class NewPasswordScreen extends StatefulWidget {
   const NewPasswordScreen({super.key});
@@ -107,7 +107,7 @@ class _NewPasswordScreen extends State<NewPasswordScreen> {
                     onPressed: () {
                       Navigator.of(context).pushReplacement(
                         MaterialPageRoute(
-                          builder: (context) => const CheckSmsScreen(),
+                          builder: (context) => const WelcomeScreen(),
                         ),
                       );
                     },

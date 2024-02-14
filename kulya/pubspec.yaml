@@ -35,6 +35,9 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+  flutter_lints: ^3.0.1
+  dots_indicator: ^3.0.0
+  flutter_rating_bar: ^4.0.1
 
 dev_dependencies:
   flutter_test:
@@ -45,8 +48,7 @@ dev_dependencies:
   # activated in the `analysis_options.yaml` file located at the root of your
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
-  flutter_lints: ^2.0.0
-  dots_indicator: ^3.0.0
+  
 
 
 # For information on the generic Dart part of this file, see the
@@ -71,6 +73,33 @@ flutter:
      - assets/images/apple.png
      - assets/images/emailcheck.jpg
      - assets/images/numbercheck.jpg
+     - assets/images/congrats.jpg
+     - assets/images/food/categories/image1.jpg
+     - assets/images/food/categories/image2.jpg
+     - assets/images/food/categories/image3.jpg
+     - assets/images/food/categories/image4.jpg
+     - assets/images/food/categories/image5.jpg
+     - assets/images/food/categories/image6.jpg
+     - assets/images/food/categories/image7.jpg
+     - assets/icons/home_icon.png
+     - assets/icons/app_icon.png
+     - assets/icons/favs_icon.png
+     - assets/icons/bag_icon.png
+     - assets/icons/user_icon.png
+     - assets/images/food/promotions/promotion1.jpg
+     - assets/images/food/promotions/promotion2.jpg
+     - assets/images/food/promotions/promotion3.jpg
+     - assets/images/food/promotions/promotion4.jpg
+     - assets/images/food/promotions/promotion5.jpg
+     - assets/images/food/promotions/promotion6.jpg
+     - assets/images/food/restaurants/restaurant1.jpg
+     - assets/images/food/restaurants/restaurant2.jpg
+     - assets/images/food/restaurants/restaurant3.jpg
+     - assets/images/food/restaurants/restaurant4.jpg
+     - assets/images/food/restaurants/restaurant5.jpg
+     - assets/images/food/restaurants/restaurant6.jpg
+
+
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

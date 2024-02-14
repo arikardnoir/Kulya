@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:kulya/screens/password/new_password_screen.dart';
 
 class CheckSmsScreen extends StatefulWidget {
-  const CheckSmsScreen({Key? key}) : super(key: key);
+  const CheckSmsScreen({super.key});
 
   @override
   // ignore: library_private_types_in_public_api

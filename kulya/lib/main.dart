@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 import 'package:kulya/screens/start/slide_screen.dart';
 import 'package:kulya/screens/start/logo_screen.dart';
 
@@ -17,6 +18,7 @@ class MyApp extends StatelessWidget {
         routes: {
           '/logo': (context) => const LogoScreen(),
           '/flavour': (context) => const SlideScreen(),
+          //'/home': (context) => const HomeScreen(),
         });
   }
 }
