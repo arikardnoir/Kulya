@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 // ignore: depend_on_referenced_packages
 import 'package:dots_indicator/dots_indicator.dart';
+import 'package:kulya/screens/home/home_screen.dart';
 import 'package:kulya/screens/sign/sign_up_screen.dart';
 
 class SlideScreen extends StatefulWidget {
@@ -83,10 +84,11 @@ class _SlideScreenState extends State<SlideScreen> {
           children: [
             ElevatedButton(
               onPressed: () {
-                /* _pageController.previousPage(
-                  duration: const Duration(milliseconds: 300),
-                  curve: Curves.easeInOut,
-                ); */
+                Navigator.of(context).pushReplacement(
+                  MaterialPageRoute(
+                    builder: (context) => const HomeScreen(),
+                  ),
+                );
               },
               style: const ButtonStyle(
                 backgroundColor: MaterialStatePropertyAll(Colors.white),
