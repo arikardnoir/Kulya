@@ -35,7 +35,7 @@ class _ForgetPasswordScreen extends State<ForgetPasswordScreen> {
                     height: 30.0,
                   ),
                   const Text(
-                    'Digite o e-mail associado a conta e, nós enviaremos um e-mail com instruções para reconfigurar a senha',
+                    'Digite o e-mail associado a sua conta e, nós enviaremos um e-mail com instruções para reconfigurar a senha',
                     textAlign: TextAlign.center,
                     style:
                         TextStyle(fontSize: 16.0, fontWeight: FontWeight.w400),
